@@ -1,0 +1,68 @@
+body {
+    background-color: #efefef;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+ .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+ .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 350pt;
+    /*whatever width you want*/
+  }
+
+.vcard {
+    border: 1px black solid;
+    padding: 10pt;
+    background-color: #f5f5f5;
+    border-radius: 4pt;
+    border-color: #d0d0d0;
+    overflow: auto;
+}
+
+.vcard img {
+    border-radius: 4pt;
+    width: 128px;
+    height: 128px;
+    float: left;
+    margin-right: 10pt;
+}
+
+ .fn {
+    font-weight:  bold;
+    font-size: 14pt;
+  }
+
+ .org {
+    color: #666666;
+    font-size: 10pt;
+}
+
+.email {
+    margin-top: 5pt;
+    font-size: 10pt;
+    color: #AAAAAA;
+}
+
+.email a {
+    color: #AAAAAA;
+}
+
+.email a:hover {
+    color: #666666;
+}

@@ -1,0 +1,29 @@
+
+ .inner {
+     width: 90%;
+  }
+
+.vcard {
+    padding: 20pt;
+    border-radius: 4pt;
+}
+
+.vcard img {
+    border-radius: 4pt;
+    width: 256px;
+    height: 256px;
+    margin-right: 20pt;
+}
+
+ .fn {
+    font-size: 38pt;
+  }
+
+ .org {
+    font-size: 15pt;
+}
+
+.email {
+    margin-top: 5pt;
+    font-size: 15pt;
+}
